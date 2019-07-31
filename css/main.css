@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{padding: 0; margin: 0;}
+.outer
+{
+	width: 1440px;
+	background-color: orange;
+	margin: 0 auto;
+}
+.header
+{
+	width: 1440px;
+	height: 110px;
+	background-color: #11171A;
+	position: fixed;
+	z-index: 100;
+}
+.logo
+{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 10px;
+	float: left;
+}
+.menu
+{
+	width: 900px;
+	height: 100px;
+	margin: 0px 0px 0px 340px;
+	float: left;
+	position: absolute;
+}
+.menu ul
+{
+	list-style: none;
+	padding: 0;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	font-family: Muli-Bold, Muli;
+;
+	color: #707070;
+	font-size: 13px;
+	font-weight: 800;
+}
+.menu ul li a:hover
+{
+	color: gold;
+}
+.menu ul li
+{
+	padding: 20px;
+	position: relative;
+	float: left;
+}
+.text_slide
+{
+	width: 1440px;
+	height: 265px;
+	color: #D8D8D8;
+	font-size: 250px;
+	position: absolute;
+	z-index: 0;
+	margin-top: 110px;
+}
+.team
+{
+	width: 1440px;
+	height: 544px;
+	margin-top: 240px;
+	position: absolute;
+	z-index: 2
+}
+.line
+{
+	width: 1440px;
+	height: 10px;
+	position: absolute;
+	z-index: 20;
+	margin-top: 780px;
+}
+.clear
+{
+	clear: both;
+}
+.slider1
+{
+	width: 1440px;
+	height: 700px;
+	position: absolute;
+	margin-top: 790px;
+	background-color: aqua;
+}
+.line2
+{
+	width: 1440px;
+	height: 10px;
+	position: absolute;
+	z-index: 20;
+	margin-top: 1485px;
+}
+
+.coach
+{
+	width: 1440px;
+	height: 635px;
+	position: absolute;
+	z-index: 10;
+	margin-top: 1495px;
+}
+.coach2
+{
+	width: 1135px;
+	height: 590px;
+	position: absolute;
+	z-index: 13;
+	margin-top: 42px;
+	margin-left: 230px;
+}
+.titlecoach
+{
+	width: 320px;
+	height: 50px;
+	position: absolute;
+	z-index: 13;
+	margin-top: 50px;
+	margin-left: 560px;
+}
+.news
+{
+	width: 1440px;
+	height: 720px;
+	position: absolute;
+	z-index: 10;
+	margin-top: 2130px;
+}
+.gallery1
+{
+	width: 1440px;
+	height: 550px;
+	position: absolute;
+	z-index: 10;
+	margin-top: 2850px;
+	text-align: center;
+}
+.partner
+{
+	width: 1440px;
+	height: 215px;
+	position: absolute;
+	z-index: 10;
+	margin-top: 3430px;
+	text-align: center;
+}
+.footer
+{
+	width: 1440px;
+	height: 148px;
+	position: absolute;
+	z-index: 10;
+	margin-top: 3645px;
+	background-color: green;
+}
+.footer2
+{
+	width: 1135px;
+	height: 108px;
+	position: absolute;
+	z-index: 30;
+	margin-left: 140px;
+	margin-top: 3685px;
+}
+.gallery{
+	margin: 10px  50px;
+}
+.gallery img{
+	width: 24%;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 0.3s;
+}
+.gallery img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.03);
+}
+
+/*news*/
+.popupcontainer2
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/news-bg.png);
+		color: #fff;
+	position: fixed;
+	display: none;
+	z-index: 100;
+}
+
+.popupcontainer1
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/news-bg.png);
+		color: #fff;
+	position: fixed;
+	display: none;
+	z-index: 100;
+}
+.popupnews
+{
+	width: 94%;
+	height: 80%;
+	position: absolute;
+	padding: 50px 200px;
+	overflow:scroll;
+	background-color: white;
+	top:50%;
+	left: 50%;
+	margin-top:-20%;
+	margin-left:-47%;
+	
+	
+}
+.newsheader{
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	width: 80%;
+}
+.newssubheader{
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+	font-family: Arial;
+}
+.newscontent{
+	font-size: 12px;
+	color: black;
+}
+.newsimgcaption
+{
+	font-size: 12px;
+	color: black;
+	font-style: italic;
+	text-align: center;
+}
+.imgholder
+{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.readmoreimgholder
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
